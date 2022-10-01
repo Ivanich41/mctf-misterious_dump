@@ -1,5 +1,5 @@
 # Mysterious Dump
-Misc task for [M*CTF](https://mctf.online)
+Misc task for [M*CTF](task.mtuci.ru)
 ## Описание таска
 Необходимо найти флаг в дампе трафика. Формат флага: mctf{WHat_did_you_found}
 ## Writeup
