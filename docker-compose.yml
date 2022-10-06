@@ -1,0 +1,15 @@
+version: "3"
+services:
+  downloader:
+    container_name: mctf-misterioous-downloader
+    restart: always
+    build:
+      context: ./
+    ports: 
+      - "9004:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 2m5s
+      timeout: 10s
+      retries: 2
+      start_period: 15s
